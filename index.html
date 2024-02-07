@@ -86,14 +86,6 @@
         height: auto;
       }
 
-      input {
-        padding: 10px;
-        margin: 10px 0;
-        width: 100%;
-        box-sizing: border-box;
-        font-family: 'Lato', sans-serif;
-      }
-
       button {
         padding: 10px 20px;
         background-color: #3E56E2;
@@ -126,26 +118,27 @@
   <body>
     <div class="overlay" id="overlay">
       <div class="gui-content">
-        <p>Welcome to our site! Please accept the terms and conditions.</p>
-        <p class="terms-conditions">By accepting, you agree to our Terms and Conditions.</p>
-        <button class="accept-button" onclick="acceptAndEnter()">Accept and Enter</button>
+        <p>Welcome to our site! Please Read This.</p>
+        <p class="terms-conditions">Hello! Clipzy is a video-sharing app primarily driven toward Editors, We are still in EARLY development.</p>
+        <p><a href="https://discord.gg/VNF4QMYZun">Join Our Discord!</a></p>
+        <button class="accept-button" onclick="acceptAndEnter()">Ok!</button>
       </div>
     </div>
     <div class="widget">
       <div class="logo">
-        <!-- You can replace this image source with your actual logo -->
-        <img src="your-logo.png" alt="Logo">
+        <img src="logo.png" alt="Logo">
       </div>
-      <p>Enter your username and password:</p>
-      <input type="text" placeholder="Username">
-      <input type="password" placeholder="Password">
-      <button>Login</button>
-      <p class="terms-conditions">Please accept our Terms and Conditions.</p>
+         <p class="terms-conditions">Welcome To Clipzy, Click The Button Below To Log In!</p>
+<button id="login-btn" onclick="login()">Login with Auth0</button>
     </div>
 
     <script>
       function acceptAndEnter() {
         document.getElementById('overlay').style.display = 'none';
+      }
+
+      function login() {
+        // Auth0 Shite idk
       }
     </script>
   </body>
