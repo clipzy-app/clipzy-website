@@ -1,14 +1,14 @@
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #e5ddc7; /* Updated brand color */
+    background-color: #e5ddc7;
     margin: 0;
     padding: 0;
     min-height: 100vh;
 }
 
 header {
-    background-color: #ffffff; /* Updated brand color */
+    background-color: #ffffff;
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -45,7 +45,7 @@ nav ul li a:hover {
 .hero, .about, .newsletter, .contact, .donate {
     text-align: center;
     padding: 50px 0;
-    background-color: #e5ddc7; /* Updated brand color */
+    background-color: #e5ddc7;
 }
 
 .hero h1 {
@@ -92,16 +92,38 @@ nav ul li a:hover {
 
 /* Footer Styles */
 .footer {
-    background-color: #000000; /* Updated brand color */
+    background-color: #333;
     color: #fff;
     padding: 20px 0;
-    width: 100%;
-    bottom: 0;
+    text-align: center;
 }
 
 .footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
     margin: 0;
-    text-align: center;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: #3498db;
 }
 
 /* Donate Section Styles */
@@ -125,7 +147,6 @@ nav ul li a:hover {
     color: #2577b5;
 }
 
-/* Additional rule to remove margin from the last section */
 .newsletter {
     margin-bottom: 0;
 }
