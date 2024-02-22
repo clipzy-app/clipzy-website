@@ -3,6 +3,11 @@ body {
     background-color: #e5ddc7;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
 
 header {
@@ -40,7 +45,6 @@ nav ul li a:hover {
 }
 
 .hero {
-    text-align: center;
     padding: 50px 0;
 }
 
@@ -71,7 +75,6 @@ nav ul li a:hover {
 }
 
 .newsletter {
-    text-align: center;
     padding: 50px 0;
 }
 
@@ -99,7 +102,6 @@ nav ul li a:hover {
 }
 
 .contact {
-    text-align: center;
     padding: 50px 0;
 }
 
