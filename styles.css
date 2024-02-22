@@ -120,10 +120,12 @@ nav ul li a:hover {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
+    border-bottom: 1px solid transparent;
 }
 
 .footer-links li a:hover {
     color: #3498db;
+    border-bottom-color: #3498db;
 }
 
 /* Donate Section Styles */
