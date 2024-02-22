@@ -57,7 +57,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.btn, a.btn {
+.btn, a {
     display: inline-block;
     background-color: #3498db;
     color: #fff;
@@ -67,7 +67,7 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover, a.btn:hover {
+.btn:hover, a:hover {
     background-color: #2577b5;
 }
 
