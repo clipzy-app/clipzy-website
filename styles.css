@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #e5ddc7;
@@ -7,11 +6,20 @@ body {
     min-height: 100vh;
 }
 
+.logo {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
 header {
     background-color: #ffffff;
-    padding: 20px 0;
+    padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav ul {
@@ -36,65 +44,11 @@ nav ul li a:hover {
     color: #3498db;
 }
 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.hero, .about, .newsletter, .contact, .donate {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #e5ddc7;
-}
-
-.hero h1 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.hero p, .about p, .newsletter p, .contact p, .donate p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.about h2, .newsletter h2, .contact h2, .donate h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.about a, .contact a, .donate a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.about a:hover, .contact a:hover, .donate a:hover {
-    color: #2577b5;
-}
-
-.btn, a.btn {
-    display: inline-block;
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover, a.btn:hover {
-    background-color: #2577b5;
-}
-
 /* Footer Styles */
 .footer {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
 }
 
