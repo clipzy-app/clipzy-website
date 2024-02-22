@@ -62,16 +62,26 @@ nav ul li a:hover {
     padding: 50px 0;
 }
 
-.about h1 {
-    font-size: 36px;
+.about h2 {
+    font-size: 24px;
     color: #333;
     margin-bottom: 20px;
 }
 
 .about p {
-    font-size: 18px;
+    font-size: 16px;
     color: #555;
     margin-bottom: 20px;
+}
+
+.about a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.about a:hover {
+    color: #2577b5;
 }
 
 .btn, a.btn {
