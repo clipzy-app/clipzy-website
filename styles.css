@@ -4,125 +4,44 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     text-align: center;
 }
 
-header {
-    background-color: #fff;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #3498db;
-}
-
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 600px;
 }
 
-.hero {
-    padding: 50px 0;
-}
-
-.hero h1 {
-    font-size: 36px;
+h1 {
     color: #333;
-    margin-bottom: 20px;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
-.hero p {
-    font-size: 18px;
+p {
     color: #555;
-    margin-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #2577b5;
-}
-
-.newsletter {
-    padding: 50px 0;
-}
-
-.newsletter h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.newsletter p {
     font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+img {
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
 }
 
-.footer p {
-    margin: 0;
-}
-
-.contact {
-    padding: 50px 0;
-}
-
-.contact h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.contact p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.contact a {
+a {
     color: #3498db;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.contact a:hover {
+a:hover {
     color: #2577b5;
+}
+
+.footer-links {
+    margin-top: 20px;
 }
