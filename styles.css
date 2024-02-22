@@ -7,11 +7,10 @@ body {
 }
 
 header {
-    background-color: #fff;
+    background-color: #e5ddc7; /* Updated brand color */
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    color: #e5ddc7; /* Updated brand color */
 }
 
 nav ul {
@@ -45,7 +44,7 @@ nav ul li a:hover {
 .hero, .about, .newsletter, .contact, .donate {
     text-align: center;
     padding: 50px 0;
-    color: #e5ddc7; /* Updated brand color */
+    background-color: #e5ddc7; /* Updated brand color */
 }
 
 .hero h1 {
@@ -92,7 +91,7 @@ nav ul li a:hover {
 
 /* Footer Styles */
 .footer {
-    background-color: #333;
+    background-color: #e5ddc7; /* Updated brand color */
     color: #fff;
     padding: 20px 0;
     width: 100%;
