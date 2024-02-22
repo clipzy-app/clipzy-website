@@ -1,9 +1,13 @@
+/* Reset margin and padding for all elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, pre, form, table, th, td, header, footer {
+    margin: 0;
+    padding: 0;
+}
+
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #e5ddc7; /* Updated brand color */
-    margin: 0;
-    padding: 0;
 }
 
 header {
@@ -97,7 +101,6 @@ nav ul li a:hover {
     width: 100%;
     position: fixed;
     bottom: 0;
-    margin-top: 0; /* Remove top margin */
 }
 
 .footer p {
@@ -109,7 +112,7 @@ nav ul li a:hover {
 .donate ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; /* Updated to remove margin */
+    margin: 0;
 }
 
 .donate ul li {
