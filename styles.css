@@ -1,13 +1,9 @@
-/* Reset margin and padding for all elements */
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, pre, form, table, th, td, header, footer {
-    margin: 0;
-    padding: 0;
-}
-
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #e5ddc7; /* Updated brand color */
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -127,4 +123,9 @@ nav ul li a:hover {
 
 .donate a:hover {
     color: #2577b5;
+}
+
+/* Additional rule to remove margin from the last section */
+.newsletter {
+    margin-bottom: 0;
 }
