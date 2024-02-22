@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #e5ddc7; /* Updated brand color */
+    background-color: #ffffff; /* Updated brand color */
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -91,7 +91,7 @@ nav ul li a:hover {
 
 /* Footer Styles */
 .footer {
-    background-color: #e5ddc7; /* Updated brand color */
+    background-color: #000000; /* Updated brand color */
     color: #fff;
     padding: 20px 0;
     width: 100%;
