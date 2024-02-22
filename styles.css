@@ -91,12 +91,13 @@ nav ul li a:hover {
 
 /* Footer Styles */
 .footer {
-    background-color: #e5ddc7; /* Updated brand color */
+    background-color: #000000; /* Updated brand color */
     color: #fff;
     padding: 20px 0;
     width: 100%;
     position: fixed;
     bottom: 0;
+    margin-top: 0; /* Remove top margin */
 }
 
 .footer p {
@@ -108,7 +109,7 @@ nav ul li a:hover {
 .donate ul {
     list-style-type: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 0; /* Updated to remove margin */
 }
 
 .donate ul li {
