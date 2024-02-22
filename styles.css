@@ -42,7 +42,7 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-.hero, .about, .newsletter, .contact, .donate {
+.hero, .about, .invite, .newsletter, .contact, .donate {
     text-align: center;
     padding: 50px 0;
     background-color: #e5ddc7;
@@ -54,13 +54,13 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.hero p, .about p, .newsletter p, .contact p, .donate p {
+.hero p, .about p, .invite p, .newsletter p, .contact p, .donate p {
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
 }
 
-.about h2, .newsletter h2, .contact h2, .donate h2 {
+.about h2, .invite h2, .newsletter h2, .contact h2, .donate h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
@@ -150,5 +150,9 @@ nav ul li a:hover {
 }
 
 .newsletter {
+    margin-bottom: 0;
+}
+
+.invite {
     margin-bottom: 0;
 }
