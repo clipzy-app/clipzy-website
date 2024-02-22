@@ -93,6 +93,9 @@ nav ul li a:hover {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer p {
