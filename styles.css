@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #e5ddc7;
@@ -40,7 +41,7 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-.hero {
+.hero, .about, .newsletter, .contact, .donate {
     text-align: center;
     padding: 50px 0;
 }
@@ -51,36 +52,25 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.hero p {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.about {
-    text-align: center;
-    padding: 50px 0;
-}
-
-.about h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.about p {
+.hero p, .about p, .newsletter p, .contact p, .donate p {
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
 }
 
-.about a {
+.about h2, .newsletter h2, .contact h2, .donate h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about a, .contact a, .donate a {
     color: #3498db;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.about a:hover {
+.about a:hover, .contact a:hover, .donate a:hover {
     color: #2577b5;
 }
 
@@ -98,23 +88,7 @@ nav ul li a:hover {
     background-color: #2577b5;
 }
 
-.newsletter {
-    text-align: center;
-    padding: 50px 0;
-}
-
-.newsletter h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.newsletter p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
+/* Footer Styles */
 .footer {
     background-color: #333;
     color: #fff;
@@ -129,29 +103,23 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.contact {
-    text-align: center;
-    padding: 50px 0;
+/* Donate Section Styles */
+.donate ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
 }
 
-.contact h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
+.donate ul li {
+    margin-bottom: 10px;
 }
 
-.contact p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.contact a {
+.donate a {
     color: #3498db;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.contact a:hover {
+.donate a:hover {
     color: #2577b5;
 }
