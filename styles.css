@@ -57,7 +57,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.btn {
+.btn, a.btn {
     display: inline-block;
     background-color: #3498db;
     color: #fff;
@@ -67,7 +67,7 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+.btn:hover, a.btn:hover {
     background-color: #2577b5;
 }
 
@@ -94,11 +94,12 @@ nav ul li a:hover {
     text-align: center;
     padding: 20px 0;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .footer p {
     margin: 0;
-    text-align: center;
 }
 
 .contact {
