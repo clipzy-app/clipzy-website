@@ -120,7 +120,7 @@ nav ul li a:hover {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid #ffffff;
 }
 
 .footer-links li a:hover {
