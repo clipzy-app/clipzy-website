@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
 body {
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
-    font-style: normal;
     background-color: #e5ddc7;
     margin: 0;
     padding: 0;
@@ -45,41 +44,41 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-.hero, .about, .invite, .newsletter, .contact, .donate {
+.section {
     text-align: center;
     padding: 50px 0;
     background-color: #e5ddc7;
 }
 
-.hero h1 {
+.section h1 {
     font-size: 36px;
     color: #333;
     margin-bottom: 20px;
 }
 
-.hero p, .about p, .invite p, .newsletter p, .contact p, .donate p {
+.section p {
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
 }
 
-.about h2, .invite h2, .newsletter h2, .contact h2, .donate h2 {
+.section h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
 }
 
-.about a, .contact a, .donate a {
+a {
     color: #3498db;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.about a:hover, .contact a:hover, .donate a:hover {
+a:hover {
     color: #2577b5;
 }
 
-.btn, a.btn {
+.btn {
     display: inline-block;
     background-color: #3498db;
     color: #fff;
@@ -89,7 +88,7 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover, a.btn:hover {
+.btn:hover {
     background-color: #2577b5;
 }
 
@@ -128,32 +127,4 @@ nav ul li a:hover {
 .footer-links li a:hover {
     color: #3498db;
     border-bottom-color: #3498db;
-}
-
-.donate ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.donate ul li {
-    margin-bottom: 10px;
-}
-
-.donate a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.donate a:hover {
-    color: #2577b5;
-}
-
-.newsletter {
-    margin-bottom: 0;
-}
-
-.invite {
-    margin-bottom: 0;
 }
