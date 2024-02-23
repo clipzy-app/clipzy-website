@@ -1,6 +1,9 @@
-/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap')
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     background-color: #e5ddc7;
     margin: 0;
     padding: 0;
@@ -90,7 +93,6 @@ nav ul li a:hover {
     background-color: #2577b5;
 }
 
-/* Footer Styles */
 .footer {
     background-color: #333;
     color: #fff;
@@ -128,7 +130,6 @@ nav ul li a:hover {
     border-bottom-color: #3498db;
 }
 
-/* Donate Section Styles */
 .donate ul {
     list-style-type: none;
     padding: 0;
