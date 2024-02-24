@@ -177,11 +177,15 @@ nav ul li a:hover {
 }
 
 .team-member {
-    max-width: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #e5ddc7;
 }
 
 .team-member img {
-    max-width: 100%;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
