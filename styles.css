@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap')
 
 body {
     font-family: "Oxygen", sans-serif;
@@ -44,7 +44,7 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-.section {
+.hero, .about, .invite, .newsletter, .contact, .donate {
     text-align: center;
     padding: 20px 0;
     background-color: #e5ddc7;
@@ -56,25 +56,25 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.section p {
+.hero p, .about p, .invite p, .newsletter p, .contact p, .donate p {
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
 }
 
-.section h2 {
+.about h2, .invite h2, .newsletter h2, .contact h2, .donate h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
 }
 
-.section a {
+.about a, .contact a, .donate a {
     color: #3498db;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.section a:hover {
+.about a:hover, .contact a:hover, .donate a:hover {
     color: #2577b5;
 }
 
@@ -111,6 +111,9 @@ nav ul li a:hover {
 
 .footer-links li {
     display: inline;
+}
+
+.footer-links li:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -144,6 +147,14 @@ nav ul li a:hover {
 
 .donate a:hover {
     color: #2577b5;
+}
+
+.newsletter {
+    margin-bottom: 0;
+}
+
+.invite {
+    margin-bottom: 0;
 }
 
 .team {
