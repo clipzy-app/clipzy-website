@@ -58,7 +58,7 @@ nav ul li a:hover {
 
 .homeText {
     background: rgb(255,33,78);
-    background: linear-gradient(90deg, rgba(255,33,78,1) 48%, rgba(255,81,254,1) 52%);
+    background: linear-gradient(90deg, rgba(255,33,78,1) 47%, rgba(255,81,254,1) 53%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
