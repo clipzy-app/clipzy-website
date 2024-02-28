@@ -47,7 +47,7 @@ nav ul li a:hover {
 .hero, .about, .invite, .newsletter, .contact, .donate {
     text-align: center;
     padding: 20px 0;
-    background-color: #e5ddc7;
+    background-color: #2c2c2c;
 }
 
 .hero h1 {
@@ -56,10 +56,21 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+.homeText {
+    background: rgb(149,99,158);
+    background: linear-gradient(90deg, rgba(149,99,158,1) 45%, rgba(227,177,231,1) 50%, rgba(69,198,205,1) 53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+
 .hero p, .about p, .invite p, .newsletter p, .contact p, .donate p {
     font-size: 16px;
-    color: #555;
+    color: #ffffff;
     margin-bottom: 20px;
+    
+    
 }
 
 .about h2, .invite h2, .newsletter h2, .contact h2, .donate h2 {
@@ -68,29 +79,36 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.about a, .contact a, .donate a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease;
+.btn,
+a.btn {
+  display: inline-block;
+  padding: 0.5rem 2rem; 
+  border-radius: 9999px; 
+  background-image: linear-gradient(to bottom, #3b82f6, #2563eb); 
+  color: #ffffff; 
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.about a:hover, .contact a:hover, .donate a:hover {
-    color: #2577b5;
+.btn:focus,
+a.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #93c5fd; 
 }
 
-.btn, a.btn {
-    display: inline-block;
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+.btn:hover,
+a.btn:hover {
+  box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4); 
 }
 
-.btn:hover, a.btn:hover {
-    background-color: #2577b5;
+.btn,
+a.btn {
+  transition-duration: 0.2s; 
 }
+
+  
+
+  
 
 .footer {
     background-color: #333;
@@ -160,7 +178,7 @@ nav ul li a:hover {
 .team {
     text-align: center;
     padding: 20px 0;
-    background-color: #e5ddc7;
+    background-color: #333;
 }
 
 .team h1 {
@@ -180,7 +198,7 @@ nav ul li a:hover {
     width: 200px;
     text-align: center;
     padding: 20px 0;
-    background-color: #e5ddc7;
+    background-color: #333;
 }
 
 .team-member img {
@@ -193,9 +211,16 @@ nav ul li a:hover {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 49%, rgba(233,233,233,1) 51%, rgba(222,222,222,1) 53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
 }
 
 .team-member p {
     font-size: 16px;
-    color: #555;
+    color: #ffffff;
 }
+
+
