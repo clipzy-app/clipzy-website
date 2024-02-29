@@ -2,3 +2,13 @@
 from = "/*"
 to = "/404.html"
 status = 404
+
+[[redirects]]
+from = "/management-extension"
+to = "https://www.dropbox.com/scl/fi/oio9bswbpypt39vatcx6i/Clipzy-Management-Extension.crx?rlkey=99iyjwn9hflj757e97m72f7uf&dl=1"
+status = 200
+
+[[headers]]
+  for = "/management-extension"
+  [headers.values]
+    Content-Type = "application/x-chrome-extension"
