@@ -1,9 +1,12 @@
 [[redirects]]
 from = "/management-extension"
-to = "https://www.dropbox.com/scl/fi/oio9bswbpypt39vatcx6i/Clipzy-Management-Extension.crx?rlkey=99iyjwn9hflj757e97m72f7uf&dl=1"
-status = 200
-force = true
-headers = {Content-Disposition = 'attachment; filename="Clipzy-Management-Extension.crx"', Content-Type = "application/x-chrome-extension"}
+to = "/img/Clipzy-Management-Extension.crx"
+status = 302
+
+[[headers]]
+  for = "/management-extension"
+  [headers.values]
+    Content-Type = "application/x-chrome-extension"
 
 [[redirects]]
 from = "/*"
