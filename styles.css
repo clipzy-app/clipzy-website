@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   padding: 3px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -66,11 +66,11 @@ nav ul li a:hover {
 }
 
 .homeText {
-  background: rgb(252, 70, 107);
+  background: rgb(255, 33, 78);
   background: linear-gradient(
     90deg,
-    rgba(252, 70, 107, 1) 48%,
-    rgba(251, 195, 63, 1) 54%
+    rgba(255, 33, 78, 1) 47%,
+    rgba(255, 81, 254, 1) 53%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
