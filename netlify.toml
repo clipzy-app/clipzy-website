@@ -1,14 +1,4 @@
 [[redirects]]
-from = "/management-extension"
-to = "/img/Clipzy-Management-Extension.zip"
-status = 302
-
-[[headers]]
-  for = "/management-extension"
-  [headers.values]
-    Content-Type = "application/x-chrome-extension"
-
-[[redirects]]
 from = "/*"
 to = "/404.html"
 status = 404
