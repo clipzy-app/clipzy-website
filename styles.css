@@ -58,7 +58,7 @@ nav ul li a:hover {
 
 .homeText {
     background: rgb(255,33,78);
-    background: linear-gradient(90deg, rgba(255,33,78,1) 47%, rgba(255,81,254,1) 53%);
+    background: #000000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -84,7 +84,7 @@ a.btn {
   display: inline-block;
   padding: 0.5rem 2rem; 
   border-radius: 9999px; 
-  background-image: linear-gradient(to bottom, #3b82f6, #2563eb); 
+  background-image: #000000; 
   color: #ffffff; 
   text-decoration: none;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
@@ -212,7 +212,7 @@ a.btn {
     margin-top: 10px;
     margin-bottom: 5px;
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 49%, rgba(233,233,233,1) 51%, rgba(222,222,222,1) 53%);
+    background: #000000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
