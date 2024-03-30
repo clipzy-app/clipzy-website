@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9EK8DS5M9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'G-L9EK8DS5M9');
+    </script>
+    <script src="https://js.sentry-cdn.com/1102ca26e4376822920a59c7ffee0ae4.min.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Clipzy: The social media platform tailored for editors, offering innovative technology for seamless video hosting and collaboration.">
@@ -12,6 +21,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
+    <script>
+      Sentry.onLoad(function() {
+        Sentry.init({
+          tracesSampleRate: 1.0,
+          replaysSessionSampleRate: 0.1,
+          replaysOnErrorSampleRate: 1.0,
+        });
+      });
+    </script>
     <header>
         <nav>
             <ul>
@@ -24,7 +42,6 @@
             </ul>
         </nav>
     </header>
-
     <section class="data-processing-addendum">
         <h1>Data Processing Addendum</h1>
         <p>Here are a list of Data Processing Addendums:</p>
